@@ -101,7 +101,7 @@ body.invitation-locked {
 
 .passport-cover__hint {
     margin-top: auto;
-    margin-bottom: 1rem;
+    margin-bottom: 4rem;
     font-family: "josefin-sans", sans-serif;
     font-size: 0.75rem;
     color: var(--soft-ivory);
