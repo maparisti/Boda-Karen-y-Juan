@@ -49,6 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const openInvitationButton = document.getElementById("openInvitation");
   const invitationContent = document.getElementById("invitationContent");
   const passportCover = document.querySelector(".passport-cover");
+  const pageLoader = document.getElementById("pageLoader");
 
   /* ===== MÚSICA ===== */
   const bgMusic = document.getElementById("bgMusic");
@@ -190,4 +191,10 @@ document.addEventListener("DOMContentLoaded", () => {
       setActiveDot(0);
     }
   }
+  
+  window.addEventListener("load", () => {
+  if (pageLoader) {
+    pageLoader.classList.add("is-hidden");
+  }
+});
 });
