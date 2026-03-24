@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boda Karen y Juan</title>
+    <link rel="icon" type="image/png" href="assets/faviconkj.png">
+    <link rel="stylesheet" href="https://use.typekit.net/hej5yfk.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/global.css">
+</head>
+<body>
+   <main>
+        <section class="passport-cover" id="passportCover">
+            <div class="passport-cover__content">
+                <div class="passport-cover__main">
+                <h1 class="passport-cover__title">PASAPORTE</h1>
+
+                <img
+                    class="passport-cover__seal"
+                    src="assets/sellokj.svg"
+                    alt="Sello decorativo con las iniciales K y J y la fecha de la boda"
+                >
+
+                <p class="passport-cover__subtitle">¡Al viaje de nuestras vidas!</p>
+                </div>
+
+                <button class="passport-cover__hint" id="openInvitation" type="button">
+                    Toca aquí para continuar
+                </button>
+            </div>
+        </section>
+        <div id="invitationContent" class="invitation-content">
+            <section class="journey">
+                <div class="journey__background">
+                    <div class="journey__top">
+                        <img
+                            class="journey__map"
+                            src="assets/map.svg"
+                            alt=""
+                            aria-hidden="true"
+                        >
+
+                        <div class="journey__top-content">
+                            <h2 class="journey__intro">
+                                Después de<br>3 años juntos
+                            </h2>
+
+                            <p class="journey__invite">
+                                Prepara tus maletas<br>y acompáñanos
+                            </p>
+                        </div>
+                    </div>
+
+                    <article class="boarding-pass">
+                        <div class="boarding-pass__photo-wrapper">
+                            <img
+                            class="boarding-pass__photo"
+                            src="assets/couple-photo.jpg"
+                            alt="Foto de la pareja"
+                            >
+                        </div>
+
+                        <div class="boarding-pass__content">
+                            <h3 class="boarding-pass__title">PASE DE ABORDAR</h3>
+
+                            <div class="boarding-pass__info">
+                                <div class="boarding-pass__group">
+                                    <p class="boarding-pass__label">PASAJEROS</p>
+                                    <p class="boarding-pass__value boarding-pass__value--handwritten" id="passengers">
+                                    Paulina, Yandy
+                                    </p>
+                                </div>
+
+                                <div class="boarding-pass__group">
+                                    <p class="boarding-pass__label">FECHA</p>
+                                    <p class="boarding-pass__value boarding-pass__value--handwritten">
+                                    18 de diciembre de 2026
+                                    </p>
+                                </div>
+
+                                <div class="boarding-pass__group">
+                                    <p class="boarding-pass__label">DESTINO</p>
+                                    <p class="boarding-pass__value boarding-pass__value--handwritten">
+                                    Bogotá, Colombia
+                                    </p>
+                                </div>
+                            </div>
+
+                            <p class="boarding-pass__note">
+                            Hora y lugar se compartirán<br>próximamente
+                            </p>
+
+                            <img
+                            class="boarding-pass__stamp"
+                            src="assets/boarding-stamp.svg"
+                            alt=""
+                            aria-hidden="true"
+                            >
+                        </div>
+                    </article>
+                </div>
+            </section>
+            <section class="details-section">
+                <div class="details-section__photo details-section__photo--top">
+                    <img src="assets/dance-1.jpg" alt="" aria-hidden="true">
+                </div>
+
+                <div class="details-wave details-wave--light details-wave--dresscode">
+                    <img
+                    class="details-wave__shape"
+                    src="assets/wave-light-1.svg"
+                    alt=""
+                    aria-hidden="true"
+                    >
+
+                    <div class="details-wave__content details-wave__content--light">
+                        <img
+                            class="details-wave__icon"
+                            src="assets/icon-dresscode.svg"
+                            alt=""
+                            aria-hidden="true"
+                        >
+
+                        <h2 class="details-wave__title">Dress Code</h2>
+                        <p class="details-wave__subtitle details-wave__subtitle--accent">Formal</p>
+
+                        <p class="details-wave__text">
+                            Color blanco, marfil, crema, beige,<br>
+                            champagne, nude y rose gold están reservados<br>
+                            ¡No queremos verte de otro color!
+                        </p>
+                    </div>
+                </div>
+
+                <div class="details-section__photo details-section__photo--bottom">
+                    <img src="assets/dance-2.jpg" alt="" aria-hidden="true">
+                </div>
+
+                <div class="details-wave details-wave--dark details-wave--gifts">
+                    <img
+                    class="details-wave__shape"
+                    src="assets/wave-dark.svg"
+                    alt=""
+                    aria-hidden="true"
+                    >
+
+                    <div class="details-wave__content details-wave__content--dark">
+                        <img
+                            class="details-wave__icon"
+                            src="assets/icon-gifts.svg"
+                            alt=""
+                            aria-hidden="true"
+                        >
+
+                        <h2 class="details-wave__title">Regalos</h2>
+                        <p class="details-wave__subtitle details-wave__subtitle--light">Lluvia de sobres</p>
+
+                        <p class="details-wave__text details-wave__text--light">
+                            Tu presencia es nuestro mejor regalo, pero si<br>
+                            deseas obsequiarnos algo, recibiremos con<br>
+                            cariño tu sobre.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="details-wave details-wave--light details-wave--rsvp">
+                    <img
+                    class="details-wave__shape"
+                    src="assets/wave-light-2.svg"
+                    alt=""
+                    aria-hidden="true"
+                    >
+
+                    <div class="details-wave__content details-wave__content--light">
+                        <h2 class="details-wave__title details-wave__title--script">¿Nos acompañas?</h2>
+
+                        <p class="details-wave__subtitle details-wave__subtitle--accent">
+                            Confirma tu asistencia
+                        </p>
+
+                        <a class="details-wave__ticket-link"
+                            href="https://docs.google.com/forms/d/e/1FAIpQLSct0FHcC-COgN6pJfbvdPbEYMeN3FsNuvXSEGGgX_dCU0DFyw/viewform?usp=publish-editor"
+                            target="_blank"
+                            rel="noopener noreferrer">
+
+                            <img
+                            class="details-wave__ticket-icon"
+                            src="assets/icon-ticket.svg"
+                            alt=""
+                            aria-hidden="true"
+                            >
+                        </a>
+
+                        <p class="details-wave__hint">(Haz click en los tickets)</p>
+                    </div>
+                </div>
+            </section>
+            <section class="memories-section">
+                <div class="memories-section__content">
+                    <h2 class="memories-section__title">Recuerdos de nuestro amor</h2>
+
+                    <p class="memories-section__text">
+                    Bastaba una decisión diferente, otro país o más tiempo lejos para no coincidir jamás,
+                    pero el destino tenía otros planes.
+                    </p>
+
+                    <div class="memories-carousel" id="memoriesCarousel">
+                        <div class="memories-carousel__track">
+                            <article class="memories-carousel__slide">
+                            <img src="assets/memory-1.jpg" alt="Recuerdo de Karen y Juan 1">
+                            </article>
+
+                            <article class="memories-carousel__slide">
+                            <img src="assets/memory-2.jpg" alt="Recuerdo de Karen y Juan 2">
+                            </article>
+
+                            <article class="memories-carousel__slide">
+                            <img src="assets/memory-3.jpg" alt="Recuerdo de Karen y Juan 3">
+                            </article>
+
+                            <article class="memories-carousel__slide">
+                            <img src="assets/memory-4.jpg" alt="Recuerdo de Karen y Juan 4">
+                            </article>
+
+                            <article class="memories-carousel__slide">
+                            <img src="assets/memory-5.jpg" alt="Recuerdo de Karen y Juan 5">
+                            </article>
+
+                            <article class="memories-carousel__slide">
+                            <img src="assets/memory-6.jpg" alt="Recuerdo de Karen y Juan 6">
+                            </article>
+                        </div>
+                    </div>
+                    <div class="memories-carousel__dots" aria-hidden="true" id="memoriesDots">
+                        <span class="memories-carousel__dot memories-carousel__dot--active"></span>
+                        <span class="memories-carousel__dot"></span>
+                        <span class="memories-carousel__dot"></span>
+                        <span class="memories-carousel__dot"></span>
+                        <span class="memories-carousel__dot"></span>
+                        <span class="memories-carousel__dot"></span>
+                    </div>
+                </div>
+            </section>
+            <section class="album-section">
+                <div class="album-section__content">
+                    <h2 class="album-section__title">
+                    Nuestro equipaje favorito<br>
+                    serán estos recuerdos
+                    </h2>
+
+                    <p class="album-section__text album-section__text--accent">
+                    Comparte tus fotos y videos en Instagram con
+                    </p>
+
+                    <p class="album-section__hashtag">#karenyjuan</p>
+
+                    <p class="album-section__text album-section__text--accent">
+                    Y súbelos también a nuestro álbum en la nube<br>
+                    escaneando este código.
+                    </p>
+
+                    <a
+                        href="https://photos.app.goo.gl/sLVfdeLme8UdXmqC7"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Abrir álbum de fotos de la boda"
+                        >
+                        <img
+                            class="album-section__qr"
+                            src="assets/qr-heart.png"
+                            alt="Código QR para subir fotos y videos al álbum de la boda"
+                        >
+                    </a>
+                </div>
+            </section>
+            <section class="final-card-section">
+                <div class="final-card-section__content">
+                    <div class="final-card-section__card">
+                        <img class="final-card-section__image" src="assets/final-card.png" alt="">
+                    </div>
+
+                    <p class="final-card-section__credit">Designed by @maparisti - @dreamerlab</p>
+                </div>
+            </section>
+        </div>
+    </main>
+    <audio id="bgMusic" loop>
+        <source src="audio/cancionkj.mp3" type="audio/mpeg">
+            Tu navegador no soporta audio HTML5.
+        </audio>
+
+        <button id="musicToggle" class="music-toggle" aria-label="Activar o pausar música">
+            ♪
+        </button>
+    <script src="js/main.js"></script>
+</body>
+</html>
