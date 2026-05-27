@@ -34,7 +34,7 @@ const passengerList = {
   32: "Jonathan",
   33: "Johana",
   34: "Camilo",
-  35: "Laura",
+  35: "Jessica y Maca",
   36: "Dinorah",
   37: "Andrea",
   38: "Billy, Marjorie",
